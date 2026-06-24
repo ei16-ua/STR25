@@ -1,0 +1,37 @@
+[GENERATED OBJECT FILE]
+b__practica4.o
+[PROJECT FILES]
+/home/str/src/practica4/default.gpr
+20260624173645 c69486eea57fcded3f570ae428eee7c7
+/usr/gnat/lib/gnat/gtkada.gpr
+20210624154234 62e3c3d91db7a53d915006648932ca0a
+[BOUND OBJECT FILES]
+/home/str/src/practica4/obj/pkg_buffergenerico.o
+/home/str/src/practica4/obj/pkg_debug.o
+/home/str/src/practica4/obj/pkg_tipos.o
+/home/str/src/practica4/obj/pkg_espacio_aereo.o
+/home/str/src/practica4/obj/pkg_torre_control.o
+/home/str/src/practica4/obj/pkg_graficos.o
+/home/str/src/practica4/obj/pkg_cronometro.o
+/home/str/src/practica4/obj/pkg_aviones.o
+/home/str/src/practica4/obj/practica4.o
+[GENERATED SOURCE FILES]
+b__practica4.ads
+b__practica4.adb
+b__practica4.ali
+[RESULTING OPTIONS]
+-L/home/str/src/practica4/obj/
+-L/home/str/src/practica4/obj/
+-L/usr/gnat/lib/gtkada/gtkada.static/gtkada/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/
+-static
+-static-libgcc
+-shared-libgcc
+-shared-libgcc
+-shared-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnarl.a
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/10.3.1/adalib/libgnat.a
+-lrt
+-lpthread
+-lm
+-ldl

@@ -1,0 +1,405 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_TASKS=1+
+RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U pkg_aviones%b		pkg_aviones.adb		a6898183 OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W pkg_cronometro%s	pkg_cronometro.adb	pkg_cronometro.ali
+W pkg_debug%s		pkg_debug.adb		pkg_debug.ali  AD
+W pkg_espacio_aereo%s	pkg_espacio_aereo.adb	pkg_espacio_aereo.ali
+W pkg_graficos%s	pkg_graficos.adb	pkg_graficos.ali  AD
+W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
+W pkg_torre_control%s	pkg_torre_control.adb	pkg_torre_control.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_uns%s	s-imguns.ads		s-imguns.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U pkg_aviones%s		pkg_aviones.ads		ff15302e EE OO PK IL
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W pkg_tipos%s		pkg_tipos.ads		pkg_tipos.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-calend.ads		20210520051127 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051127 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210520051127 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051127 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051127 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051128 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210520051128 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20210520051128 0bfd6ec4 ada.numerics.discrete_random%b
+D a-reatim.ads		20210520051126 0240fc73 ada.real_time%s
+D a-stream.ads		20210520051128 119b8fb3 ada.streams%s
+D a-string.ads		20210520051128 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051128 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051128 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051129 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051129 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051129 c3a8ac65 ada.unchecked_deallocation%s
+D cairo.ads		20210519053508 925d4aaa cairo%s
+D cairo-region.ads	20210519053508 b7133728 cairo.region%s
+D gdk.ads		20210519053508 96d821f3 gdk%s
+D gdk-color.ads		20210519053508 ef57bc34 gdk.color%s
+D gdk-device.ads	20210519053508 04c1ecbd gdk.device%s
+D gdk-display.ads	20210519053508 d91ec37e gdk.display%s
+D gdk-drag_contexts.ads	20210519053508 11b1346e gdk.drag_contexts%s
+D gdk-event.ads		20210519053508 1bda38e2 gdk.event%s
+D gdk-frame_clock.ads	20210519053508 dadfbe52 gdk.frame_clock%s
+D gdk-frame_timings.ads	20210519053508 98b5e7d1 gdk.frame_timings%s
+D gdk-pixbuf.ads	20210519053508 499fe1c7 gdk.pixbuf%s
+D gdk-rectangle.ads	20210519053508 7b900608 gdk.rectangle%s
+D gdk-rgba.ads		20210519053508 2609514a gdk.rgba%s
+D gdk-screen.ads	20210519053508 9fe578a4 gdk.screen%s
+D gdk-types.ads		20210519053508 921dc8b2 gdk.types%s
+D gdk-visual.ads	20210519053508 615e934c gdk.visual%s
+D gdk-window.ads	20210519053508 aa508024 gdk.window%s
+D glib.ads		20210519053508 7d107887 glib%s
+D glib-error.ads	20210519053508 e055fabe glib.error%s
+D glib-g_icon.ads	20210519053508 099367ad glib.g_icon%s
+D glib-generic_properties.ads  20210519053508 f3dc70df glib.generic_properties%s
+D glib-glist.ads	20210519053508 65a6e1be glib.glist%s
+D glib-gslist.ads	20210519053508 953541be glib.gslist%s
+D glib-main.ads		20210519053508 aec03ed0 glib.main%s
+D glib-object.ads	20210519053508 fb5efa0e glib.object%s
+D glib-poll.ads		20210519053508 e1a8ea35 glib.poll%s
+D glib-properties.ads	20210519053508 4118b916 glib.properties%s
+D glib-spawn.ads	20210519053508 68be6b4c glib.spawn%s
+D glib-string.ads	20210519053508 deea1b42 glib.string%s
+D glib-types.ads	20210519053508 86ac71ae glib.types%s
+D glib-values.ads	20210519053508 5ef3ad24 glib.values%s
+D glib-variant.ads	20210519053508 aee5d7d3 glib.variant%s
+D gnat.ads		20210520051131 b5988c27 gnat%s
+D g-string.ads		20210520051130 c6abc540 gnat.strings%s
+D gtk.ads		20210519053508 cfdeaf1c gtk%s
+D gtk-accel_group.ads	20210519053508 a14a159a gtk.accel_group%s
+D gtk-action.ads	20210519053508 98120d78 gtk.action%s
+D gtk-actionable.ads	20210519053508 35cd241d gtk.actionable%s
+D gtk-activatable.ads	20210519053508 873be5b9 gtk.activatable%s
+D gtk-adjustment.ads	20210519053508 bbcb1fda gtk.adjustment%s
+D gtk-bin.ads		20210519053508 4e8a2236 gtk.bin%s
+D gtk-buildable.ads	20210519053508 e8198b57 gtk.buildable%s
+D gtk-builder.ads	20210519053508 35d802c2 gtk.builder%s
+D gtk-button.ads	20210519053508 bc9a559f gtk.button%s
+D gtk-cell_area.ads	20210519053508 309571a8 gtk.cell_area%s
+D gtk-cell_area_context.ads  20210519053508 5d63dcf9 gtk.cell_area_context%s
+D gtk-cell_editable.ads	20210519053508 a955a31f gtk.cell_editable%s
+D gtk-cell_layout.ads	20210519053508 ceee6a6f gtk.cell_layout%s
+D gtk-cell_renderer.ads	20210519053508 8a8076e8 gtk.cell_renderer%s
+D gtk-container.ads	20210519053508 dc3d0898 gtk.container%s
+D gtk-drawing_area.ads	20210519053508 6fdc9064 gtk.drawing_area%s
+D gtk-enums.ads		20210519053508 e3f2f3ba gtk.enums%s
+D gtk-handlers.ads	20210519053508 313b6eab gtk.handlers%s
+D gtk-main.ads		20210519053508 e684a528 gtk.main%s
+D gtk-marshallers.ads	20210519053508 6c3cad4d gtk.marshallers%s
+D gtk-selection_data.ads  20210519053508 061b2148 gtk.selection_data%s
+D gtk-style.ads		20210519053508 3c4cbc07 gtk.style%s
+D gtk-style_provider.ads  20210519053508 e396c135 gtk.style_provider%s
+D gtk-target_entry.ads	20210519053508 02690213 gtk.target_entry%s
+D gtk-target_list.ads	20210519053508 a9d79eb7 gtk.target_list%s
+D gtk-tree_model.ads	20210519053508 e664b639 gtk.tree_model%s
+D gtk-tree_view_column.ads  20210519053508 54737275 gtk.tree_view_column%s
+D gtk-widget.ads	20210519053508 07bd7883 gtk.widget%s
+D gtk-window.ads	20210519053508 e91a448d gtk.window%s
+D gtkada.ads		20210519053508 57aea1c7 gtkada%s
+D gtkada-bindings.ads	20210519053508 fc9825de gtkada.bindings%s
+D gtkada-c.ads		20210519053508 0f5973e3 gtkada.c%s
+D gtkada-style.ads	20210519053508 026aa25d gtkada.style%s
+D gtkada-types.ads	20210519053508 471f54b5 gtkada.types%s
+D interfac.ads		20210520051131 edec285f interfaces%s
+D i-c.ads		20210520051131 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051131 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051131 e53d8b8e interfaces.c_streams%s
+D pango.ads		20210519053508 e51ea573 pango%s
+D pango-attributes.ads	20210519053508 b2832a43 pango.attributes%s
+D pango-context.ads	20210519053508 5a6f0fe6 pango.context%s
+D pango-enums.ads	20210519053508 eff085ce pango.enums%s
+D pango-font.ads	20210519053508 71042db5 pango.font%s
+D pango-font_face.ads	20210519053508 c62e6ce5 pango.font_face%s
+D pango-font_family.ads	20210519053508 1fdea8b4 pango.font_family%s
+D pango-font_metrics.ads  20210519053508 25e6f301 pango.font_metrics%s
+D pango-fontset.ads	20210519053508 af4fe708 pango.fontset%s
+D pango-language.ads	20210519053508 e96cb8f4 pango.language%s
+D pango-layout.ads	20210519053508 d240b716 pango.layout%s
+D pango-matrix.ads	20210519053508 309f74b5 pango.matrix%s
+D pango-tabs.ads	20210519053508 0c575925 pango.tabs%s
+D pkg_aviones.ads	20260624101624 97df46bf pkg_aviones%s
+D pkg_aviones.adb	20260624222209 177a4754 pkg_aviones%b
+D pkg_buffergenerico.ads  20231020064831 a4246473 pkg_buffergenerico%s
+D pkg_cronometro.ads	20260624163539 2ac7d418 pkg_cronometro%s
+D pkg_debug.ads		20231020064831 edd8aa0d pkg_debug%s
+D pkg_espacio_aereo.ads	20260624222046 a8448110 pkg_espacio_aereo%s
+D pkg_graficos.ads	20250829084819 225043db pkg_graficos%s
+D pkg_tipos.ads		20250829084752 68ca7691 pkg_tipos%s
+D pkg_torre_control.ads	20260624222156 ce06a5c0 pkg_torre_control%s
+D system.ads		20210520051134 a2da961d system%s
+D s-atacco.ads		20210520051131 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20210520051131 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051131 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051131 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051131 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051131 4ff27390 system.finalization_root%s
+D s-imageu.ads		20210520051132 525c30c6 system.image_u%s
+D s-imguns.ads		20210520051132 0e4da2ac system.img_uns%s
+D s-linux.ads		20210520051126 ed0b8aee system.linux%s
+D s-multip.ads		20210520051132 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20210520095157 e3a42aec system.os_constants%s
+D s-osinte.ads		20210520051126 222ac181 system.os_interface%s
+D s-parame.ads		20210520051133 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051133 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051133 4e095881 system.put_images%s
+D s-rannum.ads		20210520051133 c3978523 system.random_numbers%s
+D s-rannum.adb		20210520051133 2631917b system.random_numbers%b
+D s-ransee.ads		20210520051133 01a57b33 system.random_seed%s
+D s-secsta.ads		20210520051133 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051133 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051133 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051133 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051133 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051133 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051133 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051133 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051133 8fe54fb7 system.strings%s
+D s-tasinf.ads		20210520051126 2b3f8252 system.task_info%s
+D s-taspri.ads		20210520051126 4ec891e7 system.task_primitives%s
+D s-taprop.ads		20210520051126 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051126 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051126 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051126 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051126 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20210520051126 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20210520051126 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051133 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051133 2b077493 system.unsigned_types%s
+D s-valuns.ads		20210520051133 dac7b45d system.val_uns%s
+D s-valueu.ads		20210520051133 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051134 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051134 ca2f9e18 unchecked_conversion%s
+G a e
+G c b b b [b pkg_aviones 11 1 none]
+G c Z s b [t_tarea_avion pkg_aviones 3 14 none]
+G c Z s b [tarea_generaavionesTK pkg_aviones 4 9 none]
+G c Z s s [tarea_generaavionesTKVIP pkg_aviones 4 4 none]
+G c Z s s [t_tarea_avionVIP pkg_aviones 3 4 none]
+G r c none [b pkg_aviones 11 1 none] [pos_inicio pkg_graficos 46 13 none]
+G r c none [b pkg_aviones 11 1 none] [escribir pkg_debug 18 14 none]
+G r c none [t_tarea_avion pkg_aviones 3 14 none] [posicion_zonaespacioaereo pkg_graficos 70 13 none]
+G r o none [t_tarea_avion pkg_aviones 3 14 none] [solicitar_acceso pkg_espacio_aereo__t_po_aerovia 5 13 none]
+G r c none [t_tarea_avion pkg_aviones 3 14 none] [aparece pkg_graficos 38 14 none]
+G r r none [t_tarea_avion pkg_aviones 3 14 none] [peticion_descenso pkg_torre_control__tarea_torre_control 11 13 none]
+G r c none [t_tarea_avion pkg_aviones 3 14 none] [nueva_posicionx pkg_graficos 57 13 none]
+G r p none [t_tarea_avion pkg_aviones 3 14 none] [actualizar_posicion pkg_espacio_aereo__t_po_aerovia 6 17 none]
+G r c none [t_tarea_avion pkg_aviones 3 14 none] [actualiza_movimiento pkg_graficos 52 14 none]
+G r p none [t_tarea_avion pkg_aviones 3 14 none] [zona_libre pkg_espacio_aereo__t_po_aerovia 10 16 none]
+G r p none [t_tarea_avion pkg_aviones 3 14 none] [ocupar_zona pkg_espacio_aereo__t_po_aerovia 11 17 none]
+G r p none [t_tarea_avion pkg_aviones 3 14 none] [liberar_zona_y_salida pkg_espacio_aereo__t_po_aerovia 12 17 none]
+G r c none [t_tarea_avion pkg_aviones 3 14 none] [desaparece pkg_graficos 42 14 none]
+G r c none [t_tarea_avion pkg_aviones 3 14 none] [pos_inicio pkg_graficos 47 13 none]
+G r c none [t_tarea_avion pkg_aviones 3 14 none] [escribir pkg_debug 18 14 none]
+G r c none [tarea_generaavionesTK pkg_aviones 4 9 none] [pos_inicio pkg_graficos 46 13 none]
+G r c none [tarea_generaavionesTK pkg_aviones 4 9 none] [escribir pkg_debug 18 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 106|4r6 4r26 5r6 102r37
+X 4 a-except.ads
+44K13*Exceptions 289e19 106|4w10 4r30
+48P9*Exception_Id<138|84P9>
+60V13*Exception_Name{string} 106|147s69
+62V13*Exception_Name{string} 106|93s63
+92V13*Exception_Identity{48P9} 106|147s84
+X 7 a-numeri.ads
+16K13*Numerics 35e17 106|5r10 102r41
+X 8 a-nudira.ads
+44k22*Discrete_Random 81e33 106|5w19 102r50
+50R9 Generator<131|65R9> 106|103r33[102]
+52V13 Random{integer} 106|139s39[102]
+61U14 Reset<131|103p14> 106|109s22[102]
+X 9 a-nudira.adb
+53V16 Random[131|86]{integer} 132|402b13[106|102]
+65V16 Random[131|86]{integer} 132|402b13[106|102]
+X 21 gdk.ads
+43P9*Gdk_Window<36|153P9>
+46P9*Gdk_Visual<36|153P9>
+X 23 gdk-device.ads
+49P9*Gdk_Device(48R9)
+59V13*Convert{114|67M9} 40|58i21
+60V13*Convert{49P9} 40|59i21
+X 34 gdk-visual.ads
+78V13*Convert[158|20]{114|67M9} 40|58i21
+79V13*Convert[158|20]{21|46P9} 40|59i21
+X 35 gdk-window.ads
+280V13*Convert{114|67M9} 40|58i21
+281V13*Convert{21|43P9} 40|59i21
+X 36 glib.ads
+153P9*C_Proxy(150R9)
+X 43 glib-object.ads
+41P9*GObject(40R9)
+675V13*Convert{114|67M9} 40|58i21 41|49i21
+676V13*Convert{41P9} 40|59i21 41|50i21
+X 67 gtk-cell_renderer.ads
+83P9*Gtk_Cell_Renderer(82R9)
+104V13*Convert{114|67M9} 40|58i21
+105V13*Convert{83P9} 40|59i21
+X 70 gtk-enums.ads
+865V13*Convert{114|67M9} 40|58i21 41|49i21
+866V13*Convert{string} 40|59i21 41|50i21
+X 79 gtk-tree_model.ads
+808V13*Convert{114|67M9} 40|58i21
+809V13*Convert{221R9} 40|59i21
+X 80 gtk-tree_view_column.ads
+55P9*Gtk_Tree_View_Column(54R9)
+66V13*Convert{114|67M9} 40|58i21
+67V13*Convert{55P9} 40|59i21
+X 81 gtk-widget.ads
+344P9*Gtk_Widget(343R9)
+431V13*Convert{114|67M9} 40|58i21 41|49i21
+432V13*Convert{344P9} 40|59i21 41|50i21
+X 88 interfac.ads
+79M9*Unsigned_32
+82M9*Unsigned_64
+X 105 pkg_aviones.ads
+2K9*pkg_aviones 6l5 6e16 106|11b14 161l5 161t16
+3T14*T_Tarea_Avion 3d29 106|13b14 94l8 94t21 99r40 133r61
+3p29 Datos_Avion{112|111P9} 106|14r32
+4t9*Tarea_GeneraAviones 106|97b14 148l8 148t27
+X 106 pkg_aviones.adb
+14r7 Avion{112|99R9} 24r58 24r71 28r48 32m44 32r44 37r61 40r45 43m10 44r45
+. 47r28 52r72 54m19 62r51 63r51 64r51 65r40 67m16 67r33 69r19 70r54 73m19
+. 74m19 74r41 75m19 75r56 75r69 76r40 89r90 90r34
+15m7 Celda_Actual{112|81M9} 27r13 28r83 29m13 37m7 40r77 44r77 62r80 63r81
+. 64r88 70r91
+16i7 Siguiente_Pos_X{112|67I12} 24m10 25r68
+17m7 Siguiente_Celda{112|81M9} 25m10 27r29 28r97 29r29
+18b7 Permiso_Concedido{boolean} 50r17 52m90 53r19 78m19
+21U17 Hacer_Un_Paso_Vuelo 21b17 34l11 34t30 58s19 82s16
+88r12 event{4|53R9}
+92r12 event{4|53R9} 93r79
+99P12 Ptr_T_Tarea_Avion(105|3T14) 133r36
+102K15 Random_Retardo[8|44] 103r18 109r7 139r24
+103r7 Generador{8|50R9[102]} 109r28 139r46
+104i7 Retardo{112|86I12} 139m13 140r28
+106p7 Info_Avion{112|111P9} 114m13 115r13 116r13 117r13 118r13 119r13 122r16
+. 124r16 126r13 128r13 129r13 133r75
+111i11 i{integer} 115r40
+113i14 Aerovia<integer> 116r35 117r43 121r16 128r55
+133p16 Nuevo_Avion_Task{99P12}
+146r12 event{4|53R9} 147r103
+153p7 Crono{108|4P9}
+X 108 pkg_cronometro.ads
+1K9*PKG_cronometro 106|7w6 153r15 153r63 108|9e19
+3T14*T_Cronometro_Calendar 106|153r78
+4P9*Ptr_T_Cronometro_Calendar(3T14) 106|153r30
+X 109 pkg_debug.ads
+8K9*PKG_debug 106|3w6 89r10 93r10 147r10 109|38e14
+18U14*Escribir 106|89s20 93s20 147s20
+X 110 pkg_espacio_aereo.ads
+3K9*pkg_espacio_aereo 106|8w6 28r13 40r10 44r10 62r16 63r16 64r16 70r19 110|22e22
+5Y13 Solicitar_Acceso 106|40s60 44s60
+6U17 Actualizar_Posicion 106|28s63
+10V16 Zona_Libre{boolean} 106|62s69
+11U17 Ocupar_Zona 106|63s69
+12U17 Liberar_Zona_Y_Salida 106|64s66 70s69
+20a4*Control_Aerovias(4W19) 106|28r31 40r28 44r28 62r34 63r34 64r34 70r37
+X 111 pkg_graficos.ads
+27K9*PKG_graficos 106|2w6 24r29 25r29 32r10 37r22 47r7 65r16 75r32 76r19
+. 90r10 128r31 111|233e17
+38U14*Aparece 106|47s20 76s32
+42U14*Desaparece 106|65s29 90s23
+46V13*Pos_Inicio{112|70R9} 106|128s44
+47V13*Pos_Inicio{112|70R9} 106|75s45
+52U14*Actualiza_Movimiento 106|32s23
+57V13*Nueva_PosicionX{112|67I12} 106|24s42
+70V13*Posicion_ZonaEspacioAereo{112|81M9} 106|25s42 37s35
+X 112 pkg_tipos.ads
+5K9*PKG_tipos 105|1w6 1r21 106|1w6 1r21 112|113e14
+9N4*VELOCIDAD_VUELO 106|122r42 124r43
+12I9*T_RangoVelocidad<integer>
+17o4*RETARDO_MOVIMIENTO{duration} 106|23r16
+20X4*DETECTADA_POSIBLE_COLISION 106|88r19
+24n33*Yellow{24E9} 106|54r34
+24n41*Blue{24E9} 106|73r34 119r33
+24n53*Orange{24E9} 106|43r25
+40N4*NUM_AEROVIAS 106|69r35
+42N4*NUM_INICIAL_AVIONES_AEROVIA 106|111r21
+61i7*X{12I9} 106|24r87 74m35 74r57 122m37 124m37
+62i7*Y{12I9} 106|126m34
+67I12*T_CoordenadaX{integer} 106|16r24
+72i7*X{67I12} 106|24r68 37r71 75r66
+81M9*T_Rango_Rejilla_X 106|15r22 17r24
+86I12*T_RetardoAparicionAviones{integer} 106|102r67 104r17
+89I9*T_Rango_AeroVia<integer> 106|113r25
+92M9*T_IdAvion 106|89r74 115r30
+96I12*T_Rango_Pista{integer}
+99R9*T_RecordAvion 106|14r15 114r31 112|109e14
+101m7*id{92M9} 106|89r96 115m24
+102r7*pos{70R9} 106|24r64 37r67 75m25 75r62 128m24
+103r7*velocidad{59R9} 106|24r77 74m25 74r47 122m27 124m27 126m24
+104e7*color{94E12} 106|43m16 54m25 73m25 119m24
+105i7*aerovia{89I9} 106|28r54 40r51 44r51 52r78 62r57 63r57 64r57 67m22 67r39
+. 69r25 70r60 75r75 116m24
+106i7*aerovia_inicial{89I9} 106|117m24
+107i7*pista{96I12} 106|118m24
+108b7*tren_aterrizaje{boolean} 106|129m24
+111P9*Ptr_T_RecordAvion(99R9) 105|3r43 106|106r20
+X 113 pkg_torre_control.ads
+7K9*PKG_Torre_Control 106|9w6 52r16 113|14e22
+9t9*Tarea_Torre_Control 106|52r34
+11Y13 Peticion_Descenso 106|52s54
+X 114 system.ads
+67M9*Address
+X 131 s-rannum.ads
+77V13*Random{88|79M9} 132|224i21
+78V13*Random{88|82M9} 132|224i21
+X 137 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 138 s-stalib.ads
+84P9*Exception_Data_Ptr(83R9)
+
