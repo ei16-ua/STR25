@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_espacio_aereo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_espacio_aereo.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 7" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/practica4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_tipos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_espacio_aereo.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_espacio_aereo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 35" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_espacio_aereo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 87" line=" 22" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_espacio_aereo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 7" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_espacio_aereo.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 50" line=" 13" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_espacio_aereo.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_aviones.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 42" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_aviones.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 13" line=" 36" >
+      <vfs_project />
+      <vfs_file>/home/str/src/practica4/src/pkg_aviones.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

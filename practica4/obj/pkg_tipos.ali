@@ -1,0 +1,87 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FIXED_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U pkg_tipos%s		pkg_tipos.ads		68ca7691 EE OO PK KU
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051130 76789da1 ada%s
+D a-unccon.ads		20210520051129 0e9b276f ada.unchecked_conversion%s
+D pkg_tipos.ads		20250829084752 68ca7691 pkg_tipos%s
+D system.ads		20210520051134 a2da961d system%s
+D s-exctab.ads		20210520051131 54135002 system.exception_table%s
+D s-stalib.ads		20210520051133 472fbca8 system.standard_library%s
+G a e
+G c Z s s [t_velocidadIP pkg_tipos 59 9 none]
+G c Z s s [t_puntoIP pkg_tipos 70 9 none]
+G c Z s s [Tt_rejilla_ocupacionBIP pkg_tipos 83 4 none]
+G c Z s s [t_recordavionIP pkg_tipos 99 9 none]
+X 3 pkg_tipos.ads
+5K9*PKG_tipos 113l5 113e14
+7N4*MIN_VELOCIDAD_AVION 12r47
+8N4*MAX_VELOCIDAD_AVION 12r68
+9N4*VELOCIDAD_VUELO
+10N4*VELOCIDAD_INICIO_ATERRIZAJE
+12I9*T_RangoVelocidad<integer> 61r11 62r11
+17o4*RETARDO_MOVIMIENTO{duration}
+20X4*DETECTADA_POSIBLE_COLISION
+24E9*T_Color 24e80 94r29
+24n21*Red{24E9} 94r43
+24n26*Green{24E9}
+24n33*Yellow{24E9}
+24n41*Blue{24E9}
+24n47*Cyan{24E9}
+24n53*Orange{24E9} 94r48
+24n61*White{24E9}
+24n68*Black{24E9}
+24n75*Grey{24E9}
+36N4*CANVAS_WIDTH 45r37 67r46
+37N4*CANVAS_HEIGHT 68r46
+39N4*ALTURA_AEROVIA
+40N4*NUM_AEROVIAS 89r49
+41N4*MAX_AVIONES_AEROVIA 54r37
+42N4*NUM_INICIAL_AVIONES_AEROVIA 92r26
+43N4*MAX_AVIONES_ATERRIZANDO 55r48
+45N4*X_INICIO_DER_AVION 80r32
+47N4*TAM_AVION 80r51
+54M9*T_RangoBufferAviones
+55M9*T_RangoBufferAvionesAterrizando
+59R9*T_Velocidad 63e14 103r19
+61i7*X{12I9}
+62i7*Y{12I9}
+67I12*T_CoordenadaX{integer} 72r11
+68I12*T_CoordenadaY{integer} 73r11
+70R9*T_Punto 74e14 102r19
+72i7*X{67I12}
+73i7*Y{68I12}
+80N4*TAM_X_REJILLA 81r34
+81M9*T_Rango_Rejilla_X 83r39
+83A9*T_Rejilla_Ocupacion(boolean)<81M9>
+86I12*T_RetardoAparicionAviones{integer}
+89I9*T_Rango_AeroVia<integer> 105r18 106r26
+92M9*T_IdAvion 101r19
+94E12*T_ColorAvion{24E9} 104r19
+96I12*T_Rango_Pista{integer} 107r15
+99R9*T_RecordAvion 109e14 111r37
+101m7*id{92M9}
+102r7*pos{70R9}
+103r7*velocidad{59R9}
+104e7*color{94E12}
+105i7*aerovia{89I9}
+106i7*aerovia_inicial{89I9}
+107i7*pista{96I12}
+108b7*tren_aterrizaje{boolean}
+111P9*Ptr_T_RecordAvion(99R9)
+
